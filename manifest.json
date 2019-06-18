@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "pretix-navigate",
-  "version": "0.1",
+  "version": "0.2",
 
   "description": "Adds a navigation form to pretix. Requires the matching plugin to be active.",
 
@@ -10,7 +10,7 @@
 
   "content_scripts": [
     {
-      "matches": ["https://*/control/event/*/*"],
+      "matches": ["*://*/control/event/*/*"],
       "js": ["navigate.js"]
     }
   ]
