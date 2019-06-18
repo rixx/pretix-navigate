@@ -6,7 +6,6 @@
   "description": "Adds a navigation form to pretix. Requires the matching plugin to be active.",
 
   "icons": {
-    "48": "icons/border-48.png"
   },
 
   "content_scripts": [
