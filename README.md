@@ -1,6 +1,10 @@
 # pretix-navigate
 
 
+**NOTE:** This browser plugin was made redundant within less than half a day of its making, due to the wonderful pretix
+team adding nearly all of its functionality to pretix core!
+
+
 ### Development
 
 ```
