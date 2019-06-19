@@ -15,6 +15,8 @@ form.appendChild(hiddenUrl)
 var searchInput = document.createElement("input");
 searchInput.setAttribute("id", "pretix-navigate-search")
 searchInput.setAttribute("name", "pretix-navigate-search")
+searchInput.setAttribute("accesskey", "n")
+searchInput.setAttribute("placeholder", "Alt-Shift-n")
 searchInput.classList.add('form-control')
 form.appendChild(searchInput)
 
